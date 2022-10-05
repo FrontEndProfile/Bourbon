@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <title>ABOUT</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body onload="load__()">
+    <div id="load_icon" class="loading"></div>
+    <!-- === HEADER ======================================== -->
+    <header class="header no_top_nav">
+      <nav class="head__logo d-none d-lg-block mx-auto text-center">
+        <a href="index.html"><img class="img-fluid" src="images/logo.png" alt="web logo"></a>
+      </nav>
+      <!-- NAV BOTTOM  -->
+      <nav class="navbar nav__bottom navbar-expand-lg bg-transparent">
+        <div class="container px-lg-0 ">
+          <a class="navbar-brand d-block d-lg-none head__logo" href="index.html">
+            <img class="img-fluid" src="images/logo.png" alt="web logo">
+          </a>
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse position-relative align-items-center" id="navbarSupportedContent">
+            <ul class="navbar-nav menu mx-auto mb-2 mb-lg-0 navigation">
+              <li class="nav-item">
+                <a class="nav-link text-primary fw-bold" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item position-relative drop_head">
+                <a class="nav-link text-primary" href="watchs.html">WATCHES</a>
+                <ul class="dropy">
+                  <li><a class="content" href="cream-dial.html">CREAM</a></li>
+                  <li><a class="content" href="night-dial.html">NIGHT</a></li>
+                  <li><a class="content" href="streetcar.html">STREETCAR</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary me-0" href="contact.html">CONNECT</a>
+              </li>
+
+              
+            </ul>
+            <div class="position-absolute end-0 menu__icons">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-lg-end">
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"><img src="images/user.svg" alt="Bourbon Watch Company" ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-0" href="watchs.html"><img src="images/shopping.svg" alt="Bourbon Watch Company" ></a>
+              </li>
+            </ul>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+    <header class="header_hidden no_top_nav">
+      <nav class="head__logo d-none d-lg-block mx-auto text-center">
+        <img class="img-fluid" src="images/logo.png" alt="web logo">
+      </nav>
+      <!-- NAV BOTTOM  -->
+      <nav class="navbar nav__bottom navbar-expand-lg bg-transparent">
+        <div class="container px-lg-0 ">
+          <a class="navbar-brand d-block d-lg-none head__logo" href="index.html">
+            <img class="img-fluid" src="images/logo.png" alt="web logo">
+          </a>
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse position-relative align-items-center" id="navbarSupportedContent">
+            <ul class="navbar-nav menu mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="#">WATCHES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary me-0" href="#">CONNECT</a>
+              </li>
+
+              
+            </ul>
+            <div class="position-absolute end-0 menu__icons">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-lg-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="images/user.svg" alt="Bourbon Watch Company" ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-0" href="#"><img src="images/shopping.svg" alt="Bourbon Watch Company" ></a>
+              </li>
+            </ul>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- === HEADER END ======================================== -->
+    <!-- === HERO ======================================== -->
+    <section class="hero about">
+      <div class="container h-100">
+        <div class="hero__layout d-flex flex-column align-items-center justify-content-center">
+          <h1 class="text-white fw-800 text-center">“In New Orleans, culture doesn’t come from
+            on high, it bubbles up from the streets.”.</h1>
+            <h1 class="text-white fw-bold mb-3 text-center fst-italic">
+                - Ellis Marsalis</h1>
+          
+        </div>
+      </div>
+    </section>
+    <!-- === HERO END ======================================== -->
+    <!-- === BLOG ======================================== -->
+    <section class="watchBlog py-5">
+      <div class="container px-lg-0 ">
+        <div class="row flex-wrap-reverse">
+          <div class="col-lg px-sm-0">
+            <div class="watchBlog__left pe-0">
+              <div class="watchBlog__left_img about_img">
+                <img class="w-100 fix" src="images/blogs-01.png" alt="Bourbon Watch Company" >
+              </div>
+              <h2 class="watchBlog__tittle fw-800 text-primary">
+                Bourbon Watch Company:<br class="d-none d-md-block">
+                Swiss Heart, Bayou Soul
+              </h2>
+              <p class="content watchBlog__content  text-primary fw-500">
+                It can be said that Louisiana was the American 
+                continent’s first melting pot. Her rich tapestry, sewn from her many shared heritages: French and Spanish, African and Caribbean, German and Swiss, Acadian and Native American; can be seen in everything from her cuisine to her music to her people. She has born a 
+                culture unlike any other, a blend of Old-World stylings infused with the fierce spirit of the New. Bourbon Watch Company embodies this same spirit, crafting classically inspired timepieces infused with Louisiana soul.
+              </p>
+              <p class="content watchBlog__content text-primary fw-500">
+                Bourbon Watch Company was founded deep in the heart of the Louisiana bayou country, where my family has lived for 300 years. It was conceived on a simple question: if Louisiana had its own, centuries- old watch brand, what are the watches it would be
+                producing today? Inspired by my love of classical Swiss watchmaking and my deep passion for the art, history, and culture of my native state, I set out to answer that question. 
+              </p>
+              <p class="content watchBlog__content text-primary fw-500 mb-3">
+                Our Swiss Made timepieces are proudly designed in Louisiana and take their inspiration from our rich and storied culture. As a company, we strive to offer something beyond the same tired commercialized symbols that have come to represent Louisiana (it goes beyond crawfish and Mardi Gras beads). Instead, we aim to be a celebration of the art, the history, and the people that have built our great State over the past three centuries. We are excited to not only share our great culture with the world but also celebrate it here at home. 
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 px-sm-0 d-none">
+            <div class="watchBlog__right">
+              <img class="w-100 fix" src="images/blogs-01.png" alt="Bourbon Watch Company" >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- === BLOG END ======================================== -->
+    <!-- === HERO ======================================== -->
+    <section class="hero about peanut" id="red_ben">
+        <div class="container h-100">
+            <div class="hero__layout d-flex flex-column align-items-center justify-content-center">
+            <h1 class="text-white fw-800 text-center">“A South Louisiana staple, from my
+                kitchen to yours. Ça c’est bon!” .</h1>
+                <h1 class="text-white fw-bold mb-3 text-center fst-italic">
+                    - Dane Granier, Owner & Founder</h1>
+            
+            </div>
+        </div>
+    </section>
+    <!-- === HERO END ======================================== -->
+    <!-- === GUMBO ======================================== -->
+    <section class="gumbo">
+      <div class="container">
+        <div class="row">
+          <div class="col px-0 mb-sm-4 mb-2">
+            <p class="text-primary gumbo__content">
+              <span class="gumbo__strong">RED BEAN GUMBO</span>
+              is not a dish you're likely to find on any restaurant menu. You also won't often find it outside of the River Parishes. It was a Depression-era staple, a way for large families to repurpose leftover red beans into a whole new meal. It's a recipe my grandfather passed on to my mother and my mother on to me. I don't find the recipe translates well into the traditional recipe format, so I've decided to take a more narrative approach.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-between mb-md-5 mb-3 flex-wrap-reverse">
+          <div class="col-md-5 px-0 d-flex flex-column justify-content-between">
+            <div class="gumbo__menu">
+              <h5 class="gumbo__menu_head">
+                Here are your ingredients:
+              </h5>
+              <div class="gumbo__menu_ingredient">
+                <ul>
+                  <li>Leftover red beans</li>
+                  <li>¾ cup vegetable oil</li>
+                  <li>¾ cup flour </li>
+                  <li>1 large onion, diced</li>
+                  <li>1 large bell pepper, diced</li>
+                  <li>2 stalks of celery, finely diced</li>
+                  <li>2-4 cloves of garlic</li>
+                  <li>1 quart chicken stock</li>
+                  <li>1-3 cups of water</li>
+                  <li>½ tsp thyme <span>(fresh or dried)</span> </li>
+                  <li>¼ tsp cayenne pepper </li>
+                  <li>1 tsp Cajun seasoning</li>
+                  <li>Black pepper <span>(to taste)</span></li>
+                  <li>Salt <span>(to taste)</span> </li>
+                  <li>1 lb Andouille or Cajun smoked sausage</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="gumbo__menu mb-0">
+              <h5 class="gumbo__menu_head">
+                Your choice of the following:
+              </h5>
+              <div class="gumbo__menu_ingredient">
+                <ul>
+                  <li>Smoked turkey necks</li>
+                  <li>Chicken <span>(smoked, roasted, or pan-seared)</span></li>
+                  <li>Smoked ham hock</li>
+                  <li>Eggs <span>(Seriously. More on this later.)</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-7 col-md-7 px-0 mb-md-0 mb-5">
+            <img class="w-100" src="images/Gumbo.png" alt="gumbo">
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col px-0 text-md-start text-start">
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              So you've just made a nice big pot of red beans. Delicious, wasn't it? So delicious I bet, that you probably ate more than you should have, and now you find yourself saddled with an odd amount of leftovers. Not enough to really feed the family a second time, but you also don't want to just throw it out. 
+            </p>
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              And that, mon ami, is how red bean gumbo came to be. It was a Depression-era staple, used to make the most of what you had, repurposing leftovers so as to not let anything go to waste.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <a href="javascript:void(0)" class="theme__link_both text-warning readMore">CONTINUE READING FOR  A CAJUN BEST KEPT SECRET</a>
+          </div>
+        </div>
+
+        <div class="row mid" id="HiddenDiv" style="display: none;">
+          <div class="col px-0 text-md-start text-start">
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              And so the most important ingredient in this recipe is leftover red beans. And by leftover, I mean prepared red beans. You can’t make this recipe with any type of whole or fresh beans. How much red beans? However much you have left. In a perfect world, I'd say somewhere around 25 oz of red beans. Maybe you have more, maybe you have less. The less you have the less <strong>"red bean-y"</strong> and more <strong>"gumbo-y"</strong> it'll be but that's no big deal. 
+            </p>
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              Want to make this recipe but you don't have leftover red beans? Feel free to use a large can of Blue Runner brand red beans. Can't find a can of Blue Runner brand red beans where you live? Go to the nearest Popeyes and order 2 - 3 large red beans without any rice. No Popeyes near you? I'm so sorry to hear that.
+            </p>
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              You'll want to make sure your red beans are very, very creamy for this. If you're using Blue Runners or Popeyes red beans, you're 
+              probably fine. If you're using your own red beans and there are still a lot of whole beans, maybe give it a few mashes with a potato masher. Reheat and set to the side, we'll get to it later. 
+            </p>
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              Now onto the gumbo portion on the red bean gumbo, and that means it's time to start your roux, cher. In a large, heavy-bottom pot, heat ¾ cup of vegetable oil. Why vegetable oil? Because it cooks the roux evenly. Once heated at ¾ cup of flour and whisk it into the oil. Once combined, switch to a wooden spoon and stir, stir, stir. There's a reason people say to never walk away from a roux. 
+              <strong>It. Will. Burn</strong>. 
+            </p>
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              Not too experienced cooking a roux? Try lowering the heat. You'll be stirring all day, but you'll have more control. If you're impatient like me, turn up the fire and hold on tight. 
+            </p>
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              "But I saw Alton Brown cook a roux in the oven!" Yeah well, I ain't ever seen Mémère use an oven to cook a roux. 
+            </p>
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              I typically love a really dark roux gumbo, but not for red bean gumbo. So, I'll typically take my roux to milk chocolate in color or just a hair beyond. Once your roux is there, add your onion, bell pepper, and celery. Like in my red bean recipe, I like a 2-1-1 onion to bell pepper to celery ratio. Make sure to finely dice your celery. Nobody likes big chunks of celery in their gumbo. 
+            </p>
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              Cook until the onions are translucent in color. Then stir in your garlic until fragrant (30 seconds to a minute) and slowly start 
+              incorporating warmed chicken stock. If you add your stock in cold or if you add too much at once, it'll separate from the roux. 
+            </p>
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              Once your stock is incorporated, bring to a gentle boil and add in your leftover red beans and all seasonings (minus the salt). The red beans are the main flavoring component of this dish. They're what should shine through so seasonings are kept simple, intended to enhance the red bean flavor, not overpower it. My seasonings include bay leaf, cayenne, black pepper, thyme, and just a bit of an all-purpose Cajun seasoning (Paul Prudhomme Seafood Magic is my personal favorite).
+            </p>
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              Bring to a simmer. In a separate pan, sear your sliced sausage or andouille before adding it to the pot. 
+            </p>
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              As the gumbo simmers, water will need to be added to thin. The red beans will naturally thicken the gumbo and so how much water you need to add will be determined by the amount of red beans you include. Typically it'll be anywhere between 1-3 cups of water, but it could need more. Add ½-1 cup of water at a time and allow to simmer for a bit before adding more. I personally like my red bean gumbo to have a bit of body, enough to lightly coat the back of a spoon.
+            </p>
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              Now you could stop right here, let the gumbo simmer for three or so hours, then salt and adjust your seasonings to taste.  
+            </p>
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              However, any good gumbo should really have at least two different proteins. And like my red beans, I think red bean gumbo works best with a nice smokey flavor profile. Momma’s go-to was smoked turkey necks, an ingredient that is common to find in South 
+              Louisiana grocery stores. <strong>Here’s how to incorporate them:</strong>
+            </p>
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              <strong>First,</strong> rinse them off. Smoked turkey necks may have fine bits of bone dust from when they were cut so you want to rise these off well. Place in a pot, cover with water and simmer for an hour. Carefully strain your stock. You want to make sure there are no bits of bone or bone dust in the stock. Feel free to use this smoked turkey neck stock in place of water in the recipe above. 
+            </p>
+            <p class="gumbo__content text-primary mb-md-4 mb-2">
+              <strong> Next,</strong> rinse off your turkey necks again. Then carefully remove the meat from the bones. Turkey necks have a lot of small bones in them that you do not want in your gumbo. Rinse your turkey neck meat one last time before adding them to your gumbo to simmer. 
+            </p>
+            <p class="gumbo__content text-primary mb-0">
+              As you can see, smoked turkey necks can be a bit of a hassle to deal with, but it is worth it in my opinion. Don’t want to bother? 
+            </p>
+            <p class="gumbo__content text-primary mb-4">
+              Chicken is always a great alternative, especially smoked chicken. Feel free to also try smoked ham hock or shank. 
+            </p>
+            <h6 class="gumbo__menu_head gumbo__menu_head_fs_21 mb-4">
+              So About those Eggs: 
+            </h6>
+            <p class="gumbo__content text-primary mb-2">
+              So you’ve added all your proteins, you’ve simmered for a few hours (the longer the better), and you’ve adjusted all your seasonings. Well, there’s one last possible step. You see, back in the day, many Cajun families may not have always had access to things like smoked sausage or andouille or the glut of choices we have today. Remember, this recipe was about making do with what you had and something most Cajun families had readily available was eggs. Just tell the kids to go and grab you a few eggs from the hen house and poach them right into the gumbo. Each member of the family would get one egg. That’s how Pawpaw had it growing up and that’s still how we do it today. 
+            </p>
+            <p class="gumbo__content text-primary mb-2 mb-md-5">
+              So once you’re ready to serve, bring your gumbo back up to a rolling boil, give it a good stir and crack your eggs right into the pot, allowing them to poach in the gumbo. Be sure to add one for each person you are serving. Once the egg is fully poached, remove your gumbo from the heat and serve over rice.
+            </p>
+            <h6 class="gumbo__menu_head gumbo__menu_head_fs_21">
+              Ça c’est bon!
+            </h6>
+
+
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+    <!-- === GUMBO END ======================================== -->
+    <!-- === FOOTER ======================================== -->
+    <footer>
+      <div class="container px-lg-0 ">
+        <div class="row">
+          <div class="col-md-9 mx-auto">
+            <h2 class="footer_tittle text-warning fw-bold text-center mb-sm-5 mb-3">
+              It’s your time, pass a good one.
+            </h2>
+            <div class="footer_form px-md-5">
+              <form class="position-relative rounded-1 overflow-hidden" role="search">
+                <input class="form-control rounded-0 shadow-none border-0" type="search" placeholder="Enter your email address for updates and release dates." aria-label="Search">
+                <button class="bg-warning h-100 border-0 px-3 py-sm-2 position-absolute end-0 top-0" type="submit"><img class="footer_icon" src="images/footer-icon.png" alt="Bourbon Watch Company" ></button>
+              </form>
+        
+            </div>
+            <div class="footer_media text-center py-5">
+              <p class="text-warning fw-400 mb-3">Give us a follow! </p>
+              <ul class="d-flex align-items-center footer_media_layout justify-content-center">
+                <li><a target="_blank" href="https://www.facebook.com/bourbonwatchcompany/"><img src="images/facebook.svg" alt="icon"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/bourbonwatchcompany/"><img src="images/insta.svg" alt="icon"></a></li>
+                <li><a target="_blank" href="https://www.tiktok.com/@bourbonwatchcompany"><img src="images/tick-tok.svg" alt="icon"></a></li>
+              </ul>
+            </div>
+
+            <div class="footer_sub text-white">
+              <div class="row justify-content-sm-between justify-content-center text-center text-sm-start">
+                <div class="col-lg-4 col-sm-4 mb-4 mb-sm-0">
+                  <h6 class="footer_sub_head mb-3">BOURBON</h6>
+                  <ul class="ms-sm-3">
+                    <li><a class="text-white" href="about.html">About</a></li>
+                    <li><a class="text-white" href="about.html#red_ben">Red Bean Gumbo</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-4 mb-4 mb-sm-0">
+                  <h6 class="footer_sub_head mb-3">WATCHES</h6>
+                  <ul class="ms-ms-3">
+                    <li><a class="text-white" href="cream-dial.html">Cream Dial</a></li>
+                    <li><a class="text-white" href="night-dial.html">Night Dial</a></li>
+                    <li><a class="text-white" href="streetcar.html">Streetcar Dial</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-sm-4 mb-4 mb-sm-0">
+                  <h6 class="footer_sub_head mb-3">GET IN TOUCH</h6>
+                  <ul class="ms-sm-3">
+                    <li class=""><a class="text-white" href="contact.html">Connect</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row my-sm-5 pt-4">
+          <p class="copy_right text-white text-center">
+            ©2022 <a href="index.html" class="text-white">Bourbon</a> Watch Company All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- === FOOTER END ======================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

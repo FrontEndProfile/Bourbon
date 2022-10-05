@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <title>STREETCAR DIAL</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body onload="load__()">
+    <div id="load_icon" class="loading"></div>
+    <!-- === HEADER ======================================== -->
+    <header class="header no_top_nav">
+      <nav class="head__logo d-none d-lg-block mx-auto text-center">
+        <a href="index.html"><img class="img-fluid" src="images/logo.png" alt="web logo"></a>
+      </nav>
+      <!-- NAV BOTTOM  -->
+      <nav class="navbar nav__bottom navbar-expand-lg bg-transparent">
+        <div class="container px-lg-0 ">
+          <a class="navbar-brand d-block d-lg-none head__logo" href="index.html">
+            <img class="img-fluid" src="images/logo.png" alt="web logo">
+          </a>
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse position-relative align-items-center" id="navbarSupportedContent">
+            <ul class="navbar-nav menu mx-auto mb-2 mb-lg-0 navigation">
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item position-relative drop_head">
+                <a class="nav-link text-primary fw-bold" href="watchs.html">WATCHES</a>
+                <ul class="dropy">
+                  <li><a class="content" href="cream-dial.html">CREAM</a></li>
+                  <li><a class="content" href="night-dial.html">NIGHT</a></li>
+                  <li><a class="content fw-semibold" href="streetcar.html">STREETCAR</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary me-0" href="contact.html">CONNECT</a>
+              </li>
+
+              
+            </ul>
+            <div class="position-absolute end-0 menu__icons">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-lg-end">
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"><img src="images/user.svg" alt="Bourbon Watch Company" ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-0" href="watchs.html"><img src="images/shopping.svg" alt="Bourbon Watch Company" ></a>
+              </li>
+            </ul>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+    <header class="header_hidden no_top_nav">
+      <nav class="head__logo d-none d-lg-block mx-auto text-center">
+        <img class="img-fluid" src="images/logo.png" alt="web logo">
+      </nav>
+      <!-- NAV BOTTOM  -->
+      <nav class="navbar nav__bottom navbar-expand-lg bg-transparent">
+        <div class="container px-lg-0 ">
+          <a class="navbar-brand d-block d-lg-none head__logo" href="index.html">
+            <img class="img-fluid" src="images/logo.png" alt="web logo">
+          </a>
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse position-relative align-items-center" id="navbarSupportedContent">
+            <ul class="navbar-nav menu mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="#">WATCHES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary me-0" href="#">CONNECT</a>
+              </li>
+
+              
+            </ul>
+            <div class="position-absolute end-0 menu__icons">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-lg-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="images/user.svg" alt="Bourbon Watch Company" ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-0" href="#"><img src="images/shopping.svg" alt="Bourbon Watch Company" ></a>
+              </li>
+            </ul>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- === HEADER END ======================================== -->
+    <!-- === HERO ======================================== -->
+    <section class="hero about dial street">
+        <div class="container px-lg-0  h-100">
+          <div class="hero__layout d-flex flex-column align-items-center justify-content-center">
+            <h1 class="text-white fw-800 mb-3">RUE CANAL</h1>
+          </div>
+        </div>
+    </section>
+    <!-- === HERO END ======================================== -->
+    <!-- === SHORT LINKS ======================================== -->
+    <section class="pageLinks">
+        <div class="container px-lg-0 ">
+            <div class="row">
+                <div class="col">
+                    <nav>
+                        <ul class="d-flex justify-content-center align-items-center">
+                            <li><a class="pageLinks__nav" href="#stroy">STORY</a></li>
+                            <li><a class="pageLinks__nav" href="#gallery">GALLERY</a></li>
+                            <li class="me-0"><a class="pageLinks__nav" href="#specification">SPECIFICATIONS</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === SHORT LINKS END ======================================== -->
+    <section class="watch">
+        <div class="container px-lg-0 ">
+            <div class="row overflow-hidden">
+                <div class="col px-0">
+                    <div class="watch__card">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-lg-5 col-sm-6 col-11 watch__card_img">
+                                <img class="w-100" src="images/StreetcarWatch.png" alt="NightWatch">
+                            </div>
+                            <div class="col-md-4 col-md-5 col-sm-5 watch__card_body px-sm-0">
+                                <h3 class="watch__card_body_head fw-800">STREETCAR DIAL</h3>
+                                <p class="watch__card_body_content">
+                                  New Orleans’ famous green and red streetcars have shuttle passengers along oak-lined St. Charles Avenue since 1835. But did you know that the green cars were also used on the Canal Street line from 1861 to 1964?
+                                </p>
+                                <div class="text-sm-start text-center">
+                                    <a href="#" class="watch__card_body_btn">COMING SOON!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="stroy">
+                <div class="col-lg px-md-5 mx-auto px-0 watch_story">
+                    <h2 class="watch_story_head">BAYOU BORN. SWISS MADE.</h2>
+                    <p class="watchBlog__content watch_story_content">
+                        An homage to New Orleans old and new, Rue Canal pairs vintage Swiss watch design with a twist of Louisiana soul.
+                        On the 800 block of Canal Street, just a few steps off Bourbon Street and perched above the head of the Ignatius Reilly statue is the old DH Holmes department store clock. The clock, which for decades served as something of a local New Orleans landmark, found its immortality in the opening lines of John Kennedy Toole’s celebrated New Orleans epic, A Confederacy of Dunces. The flared syringe minute and hour hands and crescent-shaped counterweight of Rue Canal were based on those of the clock. The clock’s numeral design also served as inspiration when designing our own.
+                    </p>
+                    <p class="watchBlog__content watch_story_content">
+                        Rue Canal features a velvet finished printed dial in three distinct colorways infused with New Orleans soul: cream evoking a warm summer’s day in New Orleans, night blue representing the City after dark, and streetcar green inspired 
+                        by New Orleans’ famous green and red streetcars.
+                    </p>
+                    <p class="watchBlog__content watch_story_content">
+                        The watch is encased in a vintage-inspired 39mm stainless steel case with soft tear dropped-shaped lugs, a hallmark of mid-century Swiss design, used here to evoke the ornamented tops of the iron gates found throughout the French Quarter.
+                    </p>
+                    <p class="watchBlog__content watch_story_content">
+                        The heart of Rue Canal is powered by an elaboré grade Sellita SW-210 refined with Côtes de Genève and perlage 
+                        finishings and can be glimpsed through the watch’s sapphire display caseback. 
+                    </p>
+                    <p class="watchBlog__content watch_story_content mb-0">
+                        Our Italian leather strap is finished with our own custom designed “fleur-de-lis” inspired tang buckle. 
+                    </p>
+                </div>
+            </div>
+            <div class="row watch_gallery justify-content-center pt-3" id="gallery">
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="watch_story_head">GALLERY</h2>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-md-6 px-0 pe-md-3">
+                            <img class="w-100 watch_gallery_item" src="images/streetcargallery_01.png" alt="ProductWatch">
+                        </div>
+                        <div class="col-md-6 px-0 ps-md-3">
+                            <img class="w-100 watch_gallery_item" src="images/streetcargallery_02.png" alt="ProductWatch">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col px-0">
+                            <img class="w-100 watch_gallery_item" src="images/streetcargallery_03.png" alt="ProductWatch_long">
+                        </div>
+                    </div>
+                    <div class="row justify-content-between mb-5">
+                        <div class="col-md-6 px-0 pe-md-3">
+                            <img class="w-100 watch_gallery_item" src="images/streetcargallery_04.png" alt="ProductWatch">
+                        </div>
+                        <div class="col-md-6 px-0 ps-md-3">
+                            <img class="w-100 watch_gallery_item" src="images/streetcargallery_05.png" alt="ProductWatch">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SPECIFICATIONS  -->
+    <section class="watch_specification mb-5 pt-md-5 pt-4" id="specification">
+        <div class="container px-lg-0 ">
+            <div class="row">
+                <div class="col">
+                    <div class="row watch_gallery watch__specification justify-content-center mb-md-5 mb-3">
+                        <div class="col-md-10">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2 class="watch_story_head">SPECIFICATIONS</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center flex-wrap-reverse">
+                <div class="col-lg-5 offset-lg-1">
+                    <p class="watch_specification_content">
+                        <span class="d-block">CASE</span>
+                        316L stainless steel with polished bezel and lugs, brushed sides. 39mm diameter, 46.6mm lug to lug, 20mm lug width, 9mm case depth. 5 ATM water 
+                        resistance
+                    </p>
+                    <p class="watch_specification_content">
+                        <span class="d-block">DIAL</span>
+                        Velvet finish with printed numerals and minute track. 2N18 Gold printing features on Night and Streetcar dials.
+                    </p>
+                    <p class="watch_specification_content">
+                        <span class="d-block">HANDSET</span>
+                        DH Holmes inspired syringe handset. Cream and Night dials feature BPW9 lumed handset. Streetcar dial 
+                        features C3 lumed handse
+                    </p>
+                    <p class="watch_specification_content">
+                        <span class="d-block">GLASS</span>
+                        Sapphire crystal and display caseback with anti-
+                        reflective coating on the underside of the glass.
+                    </p>
+                    <p class="watch_specification_content">
+                        <span class="d-block">CROWN</span>
+                        Polished 316L stainless steel push-pull crown engraved with fleur-de-lis shield logo. 
+                    </p>
+                    <p class="watch_specification_content">
+                        <span class="d-block">STRAP</span>
+                        Small grain Italian leather. 20mm width, 70mm/120mm length. Custom “fleur-de-lis” inspired stainles steel tang buckle. 
+                    </p>
+                    <p class="watch_specification_content">
+                        <span class="d-block">MOVEMENT</span>
+                        Hand-winding elaboré grade Sellita SW-210. Côtes de Genève and perlage finishings. 19 jewels. Hacking 
+                        seconds. 42 hour power reserve. Gold finished fleur-de-lis shield logo engraving.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-8 col-10 text-center mb-lg-0 mb-5 ">
+                    <img class="w-100 watch_specification_dia_01" src="images/NightWatch_diagram.png" alt="NightWatch_diagram">
+                    <img class="watch_specification_dia_02" src="images/NightWatch_diagram.png" alt="NightWatch_diagram">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===================  -->
+    <!-- === FOOTER ======================================== -->
+    <footer>
+      <div class="container px-lg-0 ">
+        <div class="row">
+          <div class="col-md-9 mx-auto">
+            <h2 class="footer_tittle text-warning fw-bold text-center mb-sm-5 mb-3">
+              It’s your time, pass a good one.
+            </h2>
+            <div class="footer_form px-md-5">
+              <form class="position-relative rounded-1 overflow-hidden" role="search">
+                <input class="form-control rounded-0 shadow-none border-0" type="search" placeholder="Enter your email address for updates and release dates." aria-label="Search">
+                <button class="bg-warning h-100 border-0 px-3 py-sm-2 position-absolute end-0 top-0" type="submit"><img class="footer_icon" src="images/footer-icon.png" alt="Bourbon Watch Company" ></button>
+              </form>
+        
+            </div>
+            <div class="footer_media text-center py-5">
+              <p class="text-warning fw-400 mb-3">Give us a follow! </p>
+              <ul class="d-flex align-items-center footer_media_layout justify-content-center">
+                <li><a target="_blank" href="https://www.facebook.com/bourbonwatchcompany/"><img src="images/facebook.svg" alt="icon"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/bourbonwatchcompany/"><img src="images/insta.svg" alt="icon"></a></li>
+                <li><a target="_blank" href="https://www.tiktok.com/@bourbonwatchcompany"><img src="images/tick-tok.svg" alt="icon"></a></li>
+              </ul>
+            </div>
+
+            <div class="footer_sub text-white">
+              <div class="row justify-content-sm-between justify-content-center text-center text-sm-start">
+                <div class="col-lg-4 col-sm-4 mb-4 mb-sm-0">
+                  <h6 class="footer_sub_head mb-3">BOURBON</h6>
+                  <ul class="ms-sm-3">
+                    <li><a class="text-white" href="about.html">About</a></li>
+                    <li><a class="text-white" href="about.html#red_ben">Red Bean Gumbo</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-4 mb-4 mb-sm-0">
+                  <h6 class="footer_sub_head mb-3">WATCHES</h6>
+                  <ul class="ms-ms-3">
+                    <li><a class="text-white" href="cream-dial.html">Cream Dial</a></li>
+                    <li><a class="text-white" href="night-dial.html">Night Dial</a></li>
+                    <li><a class="text-white" href="streetcar.html">Streetcar Dial</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-sm-4 mb-4 mb-sm-0">
+                  <h6 class="footer_sub_head mb-3">GET IN TOUCH</h6>
+                  <ul class="ms-sm-3">
+                    <li class=""><a class="text-white" href="contact.html">Connect</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row my-sm-5 pt-4">
+          <p class="copy_right text-white text-center">
+            ©2022 <a href="index.html" class="text-white">Bourbon</a> Watch Company All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- === FOOTER END ======================================== -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
